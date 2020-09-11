@@ -57,8 +57,7 @@ import javax.swing.table.TableColumnModel;
     
     
     public AtcDcp() {
-        super();
-     
+             
        panel = new JPanel();
        frame = new JFrame();
        
