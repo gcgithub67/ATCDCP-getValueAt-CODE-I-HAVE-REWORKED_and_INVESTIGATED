@@ -298,7 +298,7 @@ import javax.swing.table.TableColumnModel;
                  setValueAt(aValueInvertedn, j2-1, 0);
                                                
                  /////////2*6 above
-                 //////20 square below includes 4*2 corner interconnections
+                 //////12 square below includes 4*2 corner interconnections
                  setValueAt(aValueInvertedEchoBecomesExist, i-1, 0);
                  setValueAt(aValueInverted, j, 0);
                  setValueAt(aValueInvertedn, i-1, 0);
