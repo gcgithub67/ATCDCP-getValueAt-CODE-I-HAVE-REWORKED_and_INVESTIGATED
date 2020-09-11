@@ -253,7 +253,7 @@ import javax.swing.table.TableColumnModel;
            
           
             //first
-           if(row>0 && aValueExisted.equals(aValueExistedEchoBecomesInvert) &&            //1
+           if(aValueExisted.equals(aValueExistedEchoBecomesInvert) &&            //1
                 aValueExistedEchoBecomesInvert.equals(aValueExistedEchoBecomesInvertn)&&  //2
                  aValueExistedEchoBecomesInvertn.equals(aValueExisted)&&                  //3
                   aValueExisted.equals(aValueExistedn)&&                                  //4
