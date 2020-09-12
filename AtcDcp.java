@@ -203,10 +203,10 @@ import javax.swing.table.TableColumnModel;
               boolArrayListEEchoM.add(boolValue);
               }
    
-        for(int i = 0, j = boolArrayListIEchoM.size() - 1; i < j; i++) { //Reversing Inverted Echo
+        for(int i = 0, j = boolArrayListIEchoM.size() - 1; i < j; i++) { //Reversing Inverted_Echo
         boolArrayListIEchoM.add(i, boolArrayListIEchoM.remove(j));
     }
-        for(int i = 0, j = boolArrayListEEchoM.size() - 1; i < j; i++) { //Reversing Existed Echo
+        for(int i = 0, j = boolArrayListEEchoM.size() - 1; i < j; i++) { //Reversing Existed_Echo
         boolArrayListEEchoM.add(i, boolArrayListEEchoM.remove(j));
     }
          
