@@ -219,8 +219,6 @@ import javax.swing.table.TableColumnModel;
            Object aValueInvertedEchoBecomesExist = boolArrayListIEchoR.get(i-1); 
            Object aValueExistedEchoBecomesInvert = boolArrayListEEchoR.get(i-1); 
            
-           j2=i;
-           i2=j;
            Object aValueExistedn = boolArrayListE.get(j); 
            Object aValueInvertedn = boolArrayListI.get(j); 
            Object aValueInvertedEchoBecomesExistn = boolArrayListIEchoR.get(j); 
@@ -241,13 +239,13 @@ import javax.swing.table.TableColumnModel;
           
                  setValueAt(aValueInvertedEchoBecomesExist, i-1, 0);                       
                  setValueAt(aValueExistedEchoBecomesInvert, i-1, 0);                                         
-                 setValueAt(aValueInvertedEchoBecomesExistn, i2, 0);                                       
-                 setValueAt(aValueExistedEchoBecomesInvertn, i2, 0);                        
+                 setValueAt(aValueInvertedEchoBecomesExistn, j, 0);                                       
+                 setValueAt(aValueExistedEchoBecomesInvertn, j, 0);                        
                                  
                  setValueAt(aValueInverted, j, 0);                                       
                  setValueAt(aValueExisted, j, 0);                         
-                 setValueAt(aValueInvertedn, j2-1, 0);                         
-                 setValueAt(aValueExistedn, j2-1, 0);                                       
+                 setValueAt(aValueInvertedn, i-1, 0);                         
+                 setValueAt(aValueExistedn, i-1, 0);                                       
                                                          
                                  
                  j++; 
