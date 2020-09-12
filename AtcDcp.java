@@ -233,7 +233,7 @@ import javax.swing.table.TableColumnModel;
                  aValueExistedEchoBecomesInvertn.equals(aValueExisted)&&                  //3
                   aValueExisted.equals(aValueExistedn)&&                                  //4
                  aValueExistedn.equals(aValueExistedEchoBecomesInvert)&&                  //5
-                //   aValueExistedEchoBecomesInvert.equals(aValueExisted)&&                 //6
+                  aValueExistedEchoBecomesInvert.equals(aValueExisted)&&                 //6
                    
                 
                 //second 
@@ -242,7 +242,7 @@ import javax.swing.table.TableColumnModel;
                    aValueExistedEchoBecomesInvert.equals(aValueExistedn)&&                 //9
                    aValueExistedn.equals(aValueExisted)&&                                  //10
                    aValueExisted.equals(aValueExistedEchoBecomesInvertn)&&                 //11
-                  // aValueExistedEchoBecomesInvertn.equals(aValueExistedn) &&               //12
+                   aValueExistedEchoBecomesInvertn.equals(aValueExistedn) &&               //12
                
               
                  //////////////2*6=12 above
@@ -268,14 +268,14 @@ import javax.swing.table.TableColumnModel;
                  setValueAt(aValueInverted, j2-1, 0);                                       //3
                  setValueAt(aValueInvertedn, i-1, 0);                                       //4
                  setValueAt(aValueInvertedEchoBecomesExist, i2, 0);                         //5
-                // setValueAt(aValueInverted, j, 0);                                          //6
+                 setValueAt(aValueInverted, j, 0);                                          //6
                  
                  setValueAt(aValueInvertedEchoBecomesExistn, i2, 0);                        //7
                  setValueAt(aValueInvertedEchoBecomesExist, j2-1, 0);                       //8
                  setValueAt(aValueInvertedn, j, 0);                                         //9
                  setValueAt(aValueInverted, i2, 0);                                         //10
                  setValueAt(aValueInvertedEchoBecomesExistn, i-1, 0);                       //11
-                // setValueAt(aValueInvertedn, j2-1, 0);                                      //12
+                 setValueAt(aValueInvertedn, j2-1, 0);                                      //12
                                                
                  /////////2*6 above
                  //////12 square below includes 4*2 corner interconnections
