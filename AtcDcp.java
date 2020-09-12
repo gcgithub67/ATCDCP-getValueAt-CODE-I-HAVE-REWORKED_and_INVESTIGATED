@@ -168,8 +168,8 @@ import javax.swing.table.TableColumnModel;
         ExistedArrayList = tempArrayListFull.get(0);
         InvertedArrayList = tempArrayListFull.get(1);
         
-        ArrayList<Object> ForEditingModelList = new ArrayList<Object>();
-        ForEditingModelList.clear();
+        ArrayList<Object> ForEditingInvertedModelList = new ArrayList<Object>();
+        ForEditingInvertedModelList.clear();
         ArrayList <Object>boolArrayListI = new <Object>ArrayList();
         boolArrayListI.clear();
         ArrayList <Object>boolArrayListIEcho = new <Object>ArrayList();
@@ -178,15 +178,15 @@ import javax.swing.table.TableColumnModel;
         boolArrayListIEchoM.clear();
         for(int i=0; i<rowCount; i++){
             
-            ForEditingModelList = InvertedArrayList.get(i);
-            Object boolValue=ForEditingModelList.get(1);
+            ForEditingInvertedModelList = InvertedArrayList.get(i);
+            Object boolValue=ForEditingInvertedModelList.get(1);
               boolArrayListI.add(boolValue); 
               boolArrayListIEcho.add(boolValue);
               boolArrayListIEchoM.add(boolValue);
               }
         
-        ArrayList<Object> ForEditingModelList2 = new ArrayList<Object>();
-        ForEditingModelList2.clear();
+        ArrayList<Object> ForEditingExistedModelList2 = new ArrayList<Object>();
+        ForEditingExistedModelList2.clear();
         ArrayList <Object>boolArrayListE = new <Object>ArrayList();
         boolArrayListE.clear();
         ArrayList <Object>boolArrayListEEcho = new <Object>ArrayList();
@@ -196,8 +196,8 @@ import javax.swing.table.TableColumnModel;
         
         for(int i=0; i<rowCount; i++){
             
-            ForEditingModelList2 = ExistedArrayList.get(i);
-            Object boolValue=ForEditingModelList2.get(1);
+            ForEditingExistedModelList2 = ExistedArrayList.get(i);
+            Object boolValue=ForEditingExistedModelList2.get(1);
               boolArrayListE.add(boolValue); 
               boolArrayListEEcho.add(boolValue);
               boolArrayListEEchoM.add(boolValue);
