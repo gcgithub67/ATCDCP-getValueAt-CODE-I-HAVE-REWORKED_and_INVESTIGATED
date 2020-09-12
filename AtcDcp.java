@@ -208,9 +208,7 @@ import javax.swing.table.TableColumnModel;
              
         @Override
         public  Object  getValueAt( int row, int column){
-            
-        
-                     
+             
             int j=0;
             int i2=0;
             int j2=0;
@@ -300,10 +298,8 @@ import javax.swing.table.TableColumnModel;
                                  
                  j++; 
              }     
-             
              } 
-            
-           
+               
            return model2.getValueAt(row,column);
             }
          
