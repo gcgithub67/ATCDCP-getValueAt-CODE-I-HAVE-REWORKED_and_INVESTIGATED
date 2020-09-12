@@ -256,7 +256,7 @@ import javax.swing.table.TableColumnModel;
                 aValueExistedEchoBecomesInvert.equals(aValueExisted) &&           
                 aValueInvertedEchoBecomesExist.equals(aValueInverted)&&
                                 
-                                aValueExisted.equals(aValueExistedEchoBecomesInvert) &&            
+                aValueExisted.equals(aValueExistedEchoBecomesInvert) &&            
                 aValueInverted.equals(aValueInvertedEchoBecomesExist)&&  
                 aValueExistedn.equals(aValueExistedEchoBecomesInvertn) &&           
                 aValueInvertedn.equals(aValueInvertedEchoBecomesExistn)&&
@@ -266,7 +266,7 @@ import javax.swing.table.TableColumnModel;
                 aValueExistedEchoBecomesInvert.equals(aValueExisted) &&           
                 aValueInvertedEchoBecomesExist.equals(aValueInverted)&&
                                         
-                                        aValueExisted.equals(aValueExistedEchoBecomesInvert) &&            
+                aValueExisted.equals(aValueExistedEchoBecomesInvert) &&            
                 aValueInverted.equals(aValueInvertedEchoBecomesExist)&&  
                 aValueExistedn.equals(aValueExistedEchoBecomesInvertn) &&           
                 aValueInvertedn.equals(aValueInvertedEchoBecomesExistn)&&
