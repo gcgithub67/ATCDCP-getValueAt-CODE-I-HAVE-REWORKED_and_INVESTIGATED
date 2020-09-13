@@ -42,7 +42,10 @@ import javax.swing.table.TableColumnModel;
     
 LinkedHashMap<Integer,LinkedHashSet<LinkedHashSet<Integer>>> doublyLinkListHashMap = 
         new LinkedHashMap<Integer,LinkedHashSet<LinkedHashSet<Integer>>>();
-LinkedHashSet<LinkedHashSet<Integer>> doublyLinkListHashSet = new LinkedHashSet<LinkedHashSet<Integer>>();
+LinkedHashSet<LinkedHashSet<LinkedHashSet<Integer>>> outerdoublyLinkListHashSet = 
+        new LinkedHashSet<LinkedHashSet<LinkedHashSet<Integer>>>();
+LinkedHashSet<LinkedHashSet<Integer>> innerdoublyLinkListHashSet = 
+        new LinkedHashSet<LinkedHashSet<Integer>>();
 LinkedHashSet<Integer> subdoublyLinkListHashSet = new LinkedHashSet<Integer>();
     
     public AtcDcp() {
