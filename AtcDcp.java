@@ -40,13 +40,12 @@ import javax.swing.table.TableColumnModel;
     Boolean transitionTo= Boolean.FALSE;
     Timer atcdcp = new Timer();
     
-LinkedHashMap<Integer,LinkedHashSet<LinkedHashSet<Integer>>> doublyLinkListHashMap = 
-        new LinkedHashMap<Integer,LinkedHashSet<LinkedHashSet<Integer>>>();
-LinkedHashSet<LinkedHashSet<LinkedHashSet<Integer>>> outerdoublyLinkListHashSet = 
-        new LinkedHashSet<LinkedHashSet<LinkedHashSet<Integer>>>();
-LinkedHashSet<LinkedHashSet<Integer>> innerdoublyLinkListHashSet = 
-        new LinkedHashSet<LinkedHashSet<Integer>>();
+LinkedHashMap<Integer,LinkedHashSet<Integer>> doublyLinkListHashMap = 
+        new LinkedHashMap<Integer,LinkedHashSet<Integer>>();
+LinkedHashMap<Integer,LinkedHashSet<Integer>> doublyLinkListHashMap2 = 
+        new LinkedHashMap<Integer,LinkedHashSet<Integer>>();
 LinkedHashSet<Integer> subdoublyLinkListHashSet = new LinkedHashSet<Integer>();
+LinkedHashSet<Integer> subdoublyLinkListHashSet2 = new LinkedHashSet<Integer>();       
     
     public AtcDcp() {
      
