@@ -39,9 +39,7 @@ import javax.swing.table.TableColumnModel;
      ArrayList<ArrayList<ArrayList<Object>>> tempArrayListFull = new ArrayList<ArrayList<ArrayList<Object>>>();
     Boolean transitionTo= Boolean.FALSE;
     Timer atcdcp = new Timer();
-    
-   //customised doubly-linked-list
-    
+        
     public AtcDcp() {
      
        
