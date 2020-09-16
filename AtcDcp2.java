@@ -265,8 +265,8 @@ import javax.swing.table.TableColumnModel;
                    aValueExisted.equals(aValueExistedEchoBecomesInvertn)&&
                    aValueExistedEchoBecomesInvertn.equals(aValueExistedn) &&
                
-                 //////////////2*6=12 above
-                 //////////////12 below (includes 4*2=8 corner interconnections)
+                 //////////////2*6=12 above axis rotation
+                 //////////////12 below square interconnections
                    aValueExisted.equals(aValueExistedEchoBecomesInvert) &&
                    aValueExistedEchoBecomesInvert.equals(aValueExisted)&&
                    aValueExisted.equals(aValueExistedn)&&
@@ -297,8 +297,8 @@ import javax.swing.table.TableColumnModel;
                  setValueAt(aValueInvertedEchoBecomesExistn, i-1, 0);
                  setValueAt(aValueInvertedn, j2-1, 0);
                                                
-                 /////////2*6 above
-                 //////20 square below includes 4*2 corner interconnections
+                 /////////2*6 above axis rotation
+                 //////12 square below interconnections
                  setValueAt(aValueInvertedEchoBecomesExist, i-1, 0);
                  setValueAt(aValueInverted, j, 0);
                  setValueAt(aValueInvertedn, i-1, 0);
