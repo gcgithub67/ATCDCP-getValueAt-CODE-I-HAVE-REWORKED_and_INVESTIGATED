@@ -143,50 +143,39 @@ import javax.swing.table.TableColumnModel;
         ExistedArrayList = tempArrayListFull.get(0);
         InvertedArrayList = tempArrayListFull.get(1);
         
-        ArrayList<Object> ForEditingInvertedModelList = new ArrayList<Object>();
-        ForEditingInvertedModelList.clear();
+        ArrayList<Object> ForEditingModelList = new ArrayList<Object>();
         ArrayList <Object>boolArrayListI = new <Object>ArrayList();
-        boolArrayListI.clear();
         ArrayList <Object>boolArrayListIEcho = new <Object>ArrayList();
-        boolArrayListIEcho.clear();
-        ArrayList <Object>boolArrayListIEchoR = new <Object>ArrayList();
-        boolArrayListIEchoR.clear();
-       
+        ArrayList <Object>boolArrayListIEchoM = new <Object>ArrayList();
         for(int i=0; i<rowCount; i++){
-            
-            ForEditingInvertedModelList = InvertedArrayList.get(i);
-            Object boolValue=ForEditingInvertedModelList.get(1);
+            ForEditingModelList.clear();
+            ForEditingModelList = InvertedArrayList.get(i);
+            Object boolValue=ForEditingModelList.get(1);
               boolArrayListI.add(boolValue); 
               boolArrayListIEcho.add(boolValue);
-              boolArrayListIEchoR.add(boolValue);
+              boolArrayListIEchoM.add(boolValue);
               }
         
-        ArrayList<Object> ForEditingExistedModelList = new ArrayList<Object>();
-        ForEditingExistedModelList.clear();
-        ArrayList <Object>boolArrayListIndx = new <Object>ArrayList();
-        boolArrayListIndx.clear();
+        ArrayList<Object> ForEditingModelList2 = new ArrayList<Object>();
         ArrayList <Object>boolArrayListE = new <Object>ArrayList();
-        boolArrayListE.clear();
         ArrayList <Object>boolArrayListEEcho = new <Object>ArrayList();
-        boolArrayListEEcho.clear();
-        ArrayList <Object>boolArrayListEEchoR = new <Object>ArrayList();
-        boolArrayListEEchoR.clear();
+        ArrayList <Object>boolArrayListEEchoM = new <Object>ArrayList();
         
         for(int i=0; i<rowCount; i++){
-            
-            ForEditingExistedModelList = ExistedArrayList.get(i);
-            Object boolValue=ForEditingExistedModelList.get(1);
+            ForEditingModelList2.clear();
+            ForEditingModelList2 = InvertedArrayList2.get(i);
+            Object boolValue=ForEditingModelList2.get(1);
               boolArrayListE.add(boolValue); 
               boolArrayListEEcho.add(boolValue);
-              boolArrayListEEchoR.add(boolValue);
+              boolArrayListEEchoM.add(boolValue);
               }
    
-        for(int i = 0, j = boolArrayListIEchoR.size() - 1; i < j; i++) { //Reversing Inverted_Echo
-        boolArrayListIEchoR.add(i, boolArrayListIEchoR.remove(j));
+        for(int i = 0, j = boolArrayListIEchoM.size() - 1; i < j; i++) {
+        boolArrayListIEchoM.add(i, boolArrayListIEchoM.remove(j));
     }
-        for(int i = 0, j = boolArrayListEEchoR.size() - 1; i < j; i++) { //Reversing Existed_Echo
-        boolArrayListEEchoR.add(i, boolArrayListEEchoR.remove(j));
-    }    
+        for(int i = 0, j = boolArrayListEEchoM.size() - 1; i < j; i++) {
+        boolArrayListEEchoM.add(i, boolArrayListEEchoM.remove(j));
+    }
         
         ////////////////doublyLinkListHashSet///doublyLinkListHashMap
         for(int i=0; i<16; i++){
@@ -231,53 +220,42 @@ import javax.swing.table.TableColumnModel;
                      
            Object aValueExisted = boolArrayListE.get(i-1); 
            Object aValueInverted = boolArrayListI.get(i-1); 
-           Object aValueExistedEchoReversed = boolArrayListEEchoR.get(j);
-           Object aValueInvertedEchoReversed = boolArrayListIEchoR.get(j); 
-            
-            
-           Object aValuerow = model2.getValueAt(row,0);
-           if(aValueExisted.equals(aValuerow) && aValuerow.equals(Boolean.TRUE)){
-               transitionTo = Boolean.TRUE;
-           }else if(aValueInverted.equals(aValuerow) && aValuerow.equals(Boolean.TRUE)){
-               transitionTo = Boolean.TRUE;
-           }    
-        
-           i2=j;
+           Object aValueInvertedEchoBecomesExist = boolArrayListIEchoM.get(j); 
+           Object aValueExistedEchoBecomesInvert = boolArrayListEEchoM.get(j); 
+           
            j2=i;
-           
-           
+           i2=j;
            Object aValueExistedn = boolArrayListE.get(i2); 
            Object aValueInvertedn = boolArrayListI.get(i2); 
-           Object aValueExistedEchoReversedn = boolArrayListEEchoR.get(j2-1);
-           Object aValueInvertedEchoReversedn = boolArrayListIEchoR.get(j2-1); 
+           Object aValueInvertedEchoBecomesExistn = boolArrayListIEchoM.get(j2-1); 
+           Object aValueExistedEchoBecomesInvertn = boolArrayListEEchoM.get(j2-1); 
             
-          if(!transitionTo){
-           if( aValueExisted.equals(aValueExistedEchoReversed) &&            
-                aValueInverted.equals(aValueInvertedEchoReversed)&&
-                aValueExistedEchoReversedn.equals(aValueExistedn)&&
-                aValueInvertedEchoReversedn.equals(aValueInvertedn) &&           
+        
+          if( aValueExisted.equals(aValueExistedEchoBecomesInvert) &&            
+                aValueInverted.equals(aValueInvertedEchoBecomesExist)&&
+                aValueInvertedEchoBecomesExistn.equals(aValueInverted)&&
+                aValueExistedEchoBecomesInvertn.equals(aValueExistedn) &&           
                 
-                 aValueInvertedn.equals(aValueInvertedEchoReversedn)&&
-                aValueExistedn.equals(aValueExistedEchoReversedn) &&           
-                  
-                aValueExistedEchoReversed.equals(aValueExisted) && 
-                aValueInvertedEchoReversed.equals(aValueInverted)
+                aValueExistedn.equals(aValueExistedEchoBecomesInvertn)&&
+                aValueInvertedn.equals(aValueInvertedEchoBecomesExistn) &&           
+                aValueInvertedEchoBecomesExist.equals(aValueInverted) && 
+                aValueExistedEchoBecomesInvert.equals(aValueExisted)
                 )            
            
                 {          
                  setValueAt(aValueInverted, i-1, 0);                       
-                 setValueAt(aValueExistedEchoReversed, j, 0);                                         
-                 setValueAt(aValueInvertedn, i2, 0); 
-                 setValueAt(aValueExistedEchoReversedn, j2-1, 0);
+                 setValueAt(aValueExistedEchoBecomesInvert, j, 0);                                         
+                 setValueAt(aValueExistedEchoBecomesInvertn, j2-1, 0); 
+                 setValueAt(aValueInvertedn, i2, 0);
                                
-                 setValueAt(aValueExistedn, i2, 0);
-                 setValueAt(aValueInvertedEchoReversedn, j2-1, 0);                                       
-                 setValueAt(aValueInvertedEchoReversed, j, 0);                         
-                 setValueAt(aValueExisted, i-1, 0);  
+                 setValueAt(aValueInvertedn, i2, 0);
+                 setValueAt(aValueExistedEchoBecomesInvertn, j2-1, 0);                                       
+                 setValueAt(aValueExistedEchoBecomesInvert, j, 0);                         
+                 setValueAt(aValueInverted, i-1, 0);  
                                     
                  j++; 
              } 
-             }} 
+             } 
             
            return model2.getValueAt(row,column);
             }
