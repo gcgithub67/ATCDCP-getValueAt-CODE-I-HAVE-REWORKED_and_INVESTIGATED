@@ -41,16 +41,7 @@ import javax.swing.table.TableColumnModel;
     
     //VECTOR OF VECTORS
     Object [][]array2;
-        Vector<Vector<?>> vlist2 =  new Vector<Vector<?>>();
-        Vector tempVector1 = new Vector();
-        Vector tempVector2 = new Vector();
-        Vector tempVector3 = new Vector();
-        Vector tempVector4 = new Vector();
-        Vector tempVector5 = new Vector();
-        Vector tempVector6 = new Vector();
-        Vector tempVector7 = new Vector();
-        Vector tempVector8 = new Vector();
-        Vector tempVector9 = new Vector();
+        
     DefaultTableModel model2 = new  DefaultTableModel();
       
     ArrayList<ArrayList<ArrayList<Object>>> tempArrayListFull = new ArrayList<ArrayList<ArrayList<Object>>>();
@@ -75,45 +66,18 @@ import javax.swing.table.TableColumnModel;
                 {Boolean.FALSE, 3, 1, 2, 12},
              
          };
+        
+        //VECTOR OF VECTORS            
+            Vector<Vector<Object>> vlist =  new Vector<Vector<Object>>(); 
+            for(int i=0;i<array2.length;i++){
+                Vector tempVector = new Vector();
+                for (int j=0; j<array2[j].length;j++){
+                  tempVector.add(array2[i][j]);  
+                }
+                vlist.add(tempVector);
+            }
    
-            for (int j = 0; j < array2[j].length; j++){
-              tempVector1.add(array2[0][j]);
-     }
-            for (int j = 0; j < array2[j].length; j++){
-              tempVector2.add(array2[1][j]);
-     }
-            for (int j = 0; j < array2[j].length; j++){
-              tempVector3.add(array2[2][j]);
-     }
-            for (int j = 0; j < array2[j].length; j++){
-              tempVector4.add(array2[3][j]);
-     }
-            for (int j = 0; j < array2[j].length; j++){
-              tempVector5.add(array2[4][j]);
-     }
-            for (int j = 0; j < array2[j].length; j++){
-              tempVector6.add(array2[5][j]);
-     }
-            for (int j = 0; j < array2[j].length; j++){
-              tempVector7.add(array2[6][j]);
-     }
-            for (int j = 0; j < array2[j].length; j++){
-              tempVector8.add(array2[7][j]);
-     }
-            for (int j = 0; j < array2[j].length; j++){
-              tempVector9.add(array2[8][j]);
-     }
-            vlist2.clear();
-            vlist2.add(tempVector1);
-            vlist2.add(tempVector2);
-            vlist2.add(tempVector3);
-            vlist2.add(tempVector4);
-            vlist2.add(tempVector5);
-            vlist2.add(tempVector6);
-            vlist2.add(tempVector7);
-            vlist2.add(tempVector8);
-            vlist2.add(tempVector9);
-            
+                        
      Vector columnName= new Vector();
      columnName.add("CheckBox");
      columnName.add("Value1");
@@ -121,7 +85,7 @@ import javax.swing.table.TableColumnModel;
      columnName.add("Value3");
      columnName.add("Value4");
       
-     model2.setDataVector(vlist2, columnName); 
+     model2.setDataVector(vlist, columnName); 
      System.out.println(model2.getRowCount());
      rowCount=model2.getRowCount();
     
