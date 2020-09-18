@@ -127,9 +127,7 @@ static void printNodes()   {
     }  
    
     public static void main(String[] args)  
-    {  
-        //the empty list 
-        //Node l_list = null;  
+    {   
    
         // add nodes to the list  
         addNode(40);  
