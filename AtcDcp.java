@@ -243,15 +243,15 @@ import javax.swing.table.TableColumnModel;
                 )            
            
                 {          
-                 setValueAt(aValueInverted, i-1, j);                       
-                 setValueAt(aValueExistedEchoBecomesInvert, j, i-1);                                         
-                 setValueAt(aValueExistedEchoBecomesInvertn, j2-1, i2); 
-                 setValueAt(aValueInvertedn, i2, j2-1);
+                 model2.setValueAt(aValueInverted, i-1, 0);   // if a seperate structure than model2, then setValueAt(aValueInverted, i-1, j);                    
+                 model2.setValueAt(aValueExistedEchoBecomesInvert, j, 0); // if a seperate structure than model2, then setValueAt(aValueInverted, j, i-1);                                        
+                 model2.setValueAt(aValueExistedEchoBecomesInvertn, j2-1, 0); // if a seperate structure than model2, then setValueAt(aValueInverted, j2-1, i2);
+                 model2.setValueAt(aValueInvertedn, i2, 0);    // if a seperate structure than model2, then setValueAt(aValueInverted, i2, j2-1);                  
                                
-                 setValueAt(aValueInvertedn, i2, j2-1);
-                 setValueAt(aValueExistedEchoBecomesInvertn, j2-1, i2);                                       
-                 setValueAt(aValueExistedEchoBecomesInvert, j, i-1);                         
-                 setValueAt(aValueInverted, i-1, j);  
+                 model2.setValueAt(aValueInvertedn, i2, 0);     // if a seperate structure than model2, then setValueAt(aValueInverted, i2, j2-1);
+                 model2.setValueAt(aValueExistedEchoBecomesInvertn, j2-1, 0);    // if a seperate structure than model2, then setValueAt(aValueInverted, j2-1, i2);                                   
+                 model2.setValueAt(aValueExistedEchoBecomesInvert, j, 0);    // if a seperate structure than model2, then setValueAt(aValueInverted, j, i-1);                     
+                 model2.setValueAt(aValueInverted, i-1, 0);  // if a seperate structure than model2, then setValueAt(aValueInverted, i-1, j);
                                     
                  j++; 
              } 
