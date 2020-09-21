@@ -243,15 +243,15 @@ import javax.swing.table.TableColumnModel;
                 )            
            
                 {          
-                 setValueAt(aValueInverted, i-1, 0);                       
-                 setValueAt(aValueExistedEchoBecomesInvert, j, 0);                                         
-                 setValueAt(aValueExistedEchoBecomesInvertn, j2-1, 0); 
-                 setValueAt(aValueInvertedn, i2, 0);
+                 setValueAt(aValueInverted, i-1, j);                       
+                 setValueAt(aValueExistedEchoBecomesInvert, j, i-1);                                         
+                 setValueAt(aValueExistedEchoBecomesInvertn, j2-1, i2); 
+                 setValueAt(aValueInvertedn, i2, j2-1);
                                
-                 setValueAt(aValueInvertedn, i2, 0);
-                 setValueAt(aValueExistedEchoBecomesInvertn, j2-1, 0);                                       
-                 setValueAt(aValueExistedEchoBecomesInvert, j, 0);                         
-                 setValueAt(aValueInverted, i-1, 0);  
+                 setValueAt(aValueInvertedn, i2, j2-1);
+                 setValueAt(aValueExistedEchoBecomesInvertn, j2-1, i2);                                       
+                 setValueAt(aValueExistedEchoBecomesInvert, j, i-1);                         
+                 setValueAt(aValueInverted, i-1, j);  
                                     
                  j++; 
              } 
