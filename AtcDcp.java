@@ -243,15 +243,15 @@ import javax.swing.table.TableColumnModel;
                 )            
            
                 {          
-                 model2.setValueAt(aValueInverted, i-1, 0);   // if a seperate structure than model2, then setValueAt(aValueInverted, i-1, j);                    
-                 model2.setValueAt(aValueExistedEchoBecomesInvert, j, 0); // if a seperate structure than model2, then setValueAt(aValueInverted, j, i-1);                                        
-                 model2.setValueAt(aValueExistedEchoBecomesInvertn, j2-1, 0); // if a seperate structure than model2, then setValueAt(aValueInverted, j2-1, i2);
-                 model2.setValueAt(aValueInvertedn, i2, 0);    // if a seperate structure than model2, then setValueAt(aValueInverted, i2, j2-1);                  
+                 model2.setValueAt(aValueInverted, i-1, 0);   // if a seperate_structure_of_circular_doubly_linked_list than model2, then setValueAt(aValueInverted, i-1, j);                    
+                 model2.setValueAt(aValueExistedEchoBecomesInvert, j, 0); // if a seperate_structure_of_circular_doubly_linked_list than model2, then setValueAt(aValueInverted, j, i-1);                                        
+                 model2.setValueAt(aValueExistedEchoBecomesInvertn, j2-1, 0); // if a seperate_structure_of_circular_doubly_linked_list than model2, then setValueAt(aValueInverted, j2-1, i2);
+                 model2.setValueAt(aValueInvertedn, i2, 0);    // if a seperate_structure_of_circular_doubly_linked_list than model2, then setValueAt(aValueInverted, i2, j2-1);                  
                                
-                 model2.setValueAt(aValueInvertedn, i2, 0);     // if a seperate structure than model2, then setValueAt(aValueInverted, i2, j2-1);
-                 model2.setValueAt(aValueExistedEchoBecomesInvertn, j2-1, 0);    // if a seperate structure than model2, then setValueAt(aValueInverted, j2-1, i2);                                   
-                 model2.setValueAt(aValueExistedEchoBecomesInvert, j, 0);    // if a seperate structure than model2, then setValueAt(aValueInverted, j, i-1);                     
-                 model2.setValueAt(aValueInverted, i-1, 0);  // if a seperate structure than model2, then setValueAt(aValueInverted, i-1, j);
+                 model2.setValueAt(aValueInvertedn, i2, 0);     // if a seperate_structure_of_circular_doubly_linked_list than model2, then setValueAt(aValueInverted, i2, j2-1);
+                 model2.setValueAt(aValueExistedEchoBecomesInvertn, j2-1, 0);    // if a seperate_structure_of_circular_doubly_linked_list than model2, then setValueAt(aValueInverted, j2-1, i2);                                   
+                 model2.setValueAt(aValueExistedEchoBecomesInvert, j, 0);    // if a seperate_structure_of_circular_doubly_linked_list than model2, then setValueAt(aValueInverted, j, i-1);                     
+                 model2.setValueAt(aValueInverted, i-1, 0);  // if a seperate_structure_of_circular_doubly_linked_list than model2, then setValueAt(aValueInverted, i-1, j);
                                     
                  j++; 
              } 
