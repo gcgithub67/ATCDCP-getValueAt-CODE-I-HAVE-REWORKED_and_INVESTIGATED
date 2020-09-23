@@ -234,7 +234,7 @@ import javax.swing.table.TableColumnModel;
            //Object aValueExistedEchoBecomesInvertn = boolArrayListEEchoM.get(j2-1); 
            
            
-            if( aValueExisted.equals(aValueExistedEchoBecomesInvert) &&            
+            if( aValueExisted.equals(aValueExistedEchoBecomesInvert) &&              
                 aValueInverted.equals(aValueInvertedEchoBecomesExist)&&
                 aValueInvertedEchoBecomesExistn.equals(aValueInverted)&&
                 aValueExistedEchoBecomesInvertn.equals(aValueExistedn) &&           
@@ -276,7 +276,7 @@ import javax.swing.table.TableColumnModel;
                               
            
                 {          
-                 setValueAt(aValueInverted, i-1, 0);                       
+                 setValueAt(aValueInverted, i-1, 0); //if a seperate k-ary_n-cube_Graph_data_structure_AdjacencyList used then setValueAt(aValueInverted, i-1, j)                     
                  setValueAt(aValueExistedEchoBecomesInvert, j, 0);                                         
                  setValueAt(aValueExistedEchoBecomesInvertn, j2-1, 0); 
                  setValueAt(aValueInvertedn, i2, 0);
