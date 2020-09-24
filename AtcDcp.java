@@ -264,7 +264,7 @@ import javax.swing.table.TableColumnModel;
                       
                 { 
                  // if not equal   
-                 setValueAt(aValueInverted, i-1, 0);                       
+                 setValueAt(aValueInverted, i-1, 0);  //if a seperate k-ary_n-cube_Graph_data_structure_AdjacencyList used then setValueAt(aValueInverted, i-1, j)                    
                  setValueAt(aValueInvertedEchoBecomesExist, j, 0);                                         
                  setValueAt(aValueExistedEchoBecomesInvertn, j2-1, 0); 
                  setValueAt(aValueExistedn, i2, 0);
