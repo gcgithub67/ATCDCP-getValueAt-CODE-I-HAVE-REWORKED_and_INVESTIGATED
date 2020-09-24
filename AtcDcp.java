@@ -221,25 +221,25 @@ import javax.swing.table.TableColumnModel;
            Object aValueExistedEchoBecomesInvertn = boolArrayListEEchoM.get(j2-1);
            
                 //if not equal
-            if( aValueExisted.equals(aValueInvertedEchoBecomesExist) &&            
-                aValueInverted.equals(aValueExistedEchoBecomesInvert)&&
-                aValueInvertedEchoBecomesExistn.equals(aValueExistedn)&&
-                aValueExistedEchoBecomesInvertn.equals(aValueInvertedn) &&           
+            if( !aValueExisted.equals(aValueInvertedEchoBecomesExist) &&            
+                !aValueInverted.equals(aValueExistedEchoBecomesInvert)&&
+                !aValueInvertedEchoBecomesExistn.equals(aValueExistedn)&&
+                !aValueExistedEchoBecomesInvertn.equals(aValueInvertedn) &&           
                 
-                aValueExistedEchoBecomesInvert.equals(aValueInverted)&&
-                aValueInvertedEchoBecomesExist.equals(aValueExisted) &&           
-                aValueInvertedn.equals(aValueExistedEchoBecomesInvertn) && 
-                aValueExistedn.equals(aValueInvertedEchoBecomesExistn)&&
+                !aValueExistedEchoBecomesInvert.equals(aValueInverted)&&
+                !aValueInvertedEchoBecomesExist.equals(aValueExisted) &&           
+                !aValueInvertedn.equals(aValueExistedEchoBecomesInvertn) && 
+                !aValueExistedn.equals(aValueInvertedEchoBecomesExistn)&&
                     
-                aValueExistedn.equals(aValueInvertedEchoBecomesExistn)&&
-                aValueInvertedn.equals(aValueExistedEchoBecomesInvertn) &&           
-                aValueInvertedEchoBecomesExist.equals(aValueExisted) && 
-                aValueExistedEchoBecomesInvert.equals(aValueInverted)&&
+                !aValueExistedn.equals(aValueInvertedEchoBecomesExistn)&&
+                !aValueInvertedn.equals(aValueExistedEchoBecomesInvertn) &&           
+                !aValueInvertedEchoBecomesExist.equals(aValueExisted) && 
+                !aValueExistedEchoBecomesInvert.equals(aValueInverted)&&
                     
-                aValueExistedEchoBecomesInvertn.equals(aValueInvertedn) &&            
-                aValueInvertedEchoBecomesExistn.equals(aValueExistedn)&&
-                aValueInverted.equals(aValueExistedEchoBecomesInvert)&&
-                aValueExisted.equals(aValueInvertedEchoBecomesExist)&&
+                !aValueExistedEchoBecomesInvertn.equals(aValueInvertedn) &&            
+                !aValueInvertedEchoBecomesExistn.equals(aValueExistedn)&&
+                !aValueInverted.equals(aValueExistedEchoBecomesInvert)&&
+                !aValueExisted.equals(aValueInvertedEchoBecomesExist)&&
                 /////// if equal   
                 aValueExisted.equals(aValueExistedEchoBecomesInvert) &&            
                 aValueInverted.equals(aValueInvertedEchoBecomesExist)&&
