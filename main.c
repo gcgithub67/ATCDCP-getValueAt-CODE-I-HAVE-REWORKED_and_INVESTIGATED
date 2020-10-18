@@ -933,7 +933,7 @@ int main() //sample main for testing
  g1=CreateEmptyGraph();
   
  // Create first connected component 
- // Insert edge (0,0)-(0,10)
+ // Insert edge (0,0)-(0,1)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -948,7 +948,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,6)
+ // Insert edge (0,0)-(0,2)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -963,7 +963,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0, 10)-(10, 10)
+ // Insert edge (0, 0)-(0,3 )
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -978,7 +978,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,10)-(5,6)
+ // Insert edge (0,0)-(0,4)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -993,7 +993,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,4)
+ // Insert edge (0,0)-(0,5)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1008,7 +1008,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5, 4)-(10, 4)
+ // Insert edge (0, 0)-(0, 6)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1023,7 +1023,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5,6)-(10,6)
+ // Insert edge (0,0)-(0,7)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1038,7 +1038,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10,10)-(10,6)
+ // Insert edge (0,0)-(0,8)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1053,7 +1053,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10, 6)-(10, 4)
+ // Insert edge (0, 0)-(0, 9)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1069,7 +1069,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
  // Create second connected component
- // Insert edge (20,4)-(20,10)
+ // Insert edge (0,0)-(0,10)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1084,7 +1084,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (20,10)-(30,10)
+ // Insert edge (0,0)-(0,11)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1099,7 +1099,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (25,5)-(30,10) 	
+ // Insert edge (0,0)-(0,12) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1115,7 +1115,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
 	
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,0)-(0,13) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1131,7 +1131,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
  
  
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,0)-(0,14) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1146,7 +1146,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,0)-(0,15) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1162,7 +1162,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
  
  /////////////////////////2
-  // Insert edge (0,0)-(0,10)
+  // Insert edge (0,1)-(0,0)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1177,7 +1177,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,6)
+ // Insert edge (0,1)-(0,2)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1192,7 +1192,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0, 10)-(10, 10)
+ // Insert edge (0, 1)-(0, 3)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1207,7 +1207,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,10)-(5,6)
+ // Insert edge (0,1)-(0,4)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1222,7 +1222,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,4)
+ // Insert edge (0,1)-(0,5)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1237,7 +1237,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5, 4)-(10, 4)
+ // Insert edge (0, 1)-(0, 6)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1252,7 +1252,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5,6)-(10,6)
+ // Insert edge (0,1)-(0,7)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1267,7 +1267,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10,10)-(10,6)
+ // Insert edge (0,1)-(0,8)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1282,7 +1282,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10, 6)-(10, 4)
+ // Insert edge (0, 1)-(0, 9)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1298,7 +1298,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
  // Create second connected component
- // Insert edge (20,4)-(20,10)
+ // Insert edge (0,1)-(0,10)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1313,7 +1313,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (20,10)-(30,10)
+ // Insert edge (0,1)-(0,11)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1328,7 +1328,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (25,5)-(30,10) 	
+ // Insert edge (0,1)-(0,12) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1344,7 +1344,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
 	
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,1)-(0,13) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1360,7 +1360,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
  
  
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,1)-(0,14) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1375,7 +1375,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,1)-(0,15) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1391,7 +1391,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
  ///////////////////3
-  // Insert edge (0,0)-(0,10)
+  // Insert edge (0,2)-(0,0)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1406,7 +1406,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,6)
+ // Insert edge (0,2)-(0,1)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1421,7 +1421,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0, 10)-(10, 10)
+ // Insert edge (0, 2)-(0, 3)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1436,7 +1436,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,10)-(5,6)
+ // Insert edge (0,2)-(0,4)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1451,7 +1451,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,4)
+ // Insert edge (0,2)-(0,5)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1466,7 +1466,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5, 4)-(10, 4)
+ // Insert edge (0, 2)-(0, 6)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1481,7 +1481,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5,6)-(10,6)
+ // Insert edge (0,2)-(0,7)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1496,7 +1496,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10,10)-(10,6)
+ // Insert edge (0,2)-(0,8)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1511,7 +1511,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10, 6)-(10, 4)
+ // Insert edge (0, 2)-(0, 9)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1527,7 +1527,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
  // Create second connected component
- // Insert edge (20,4)-(20,10)
+ // Insert edge (0,2)-(0,10)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1542,7 +1542,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (20,10)-(30,10)
+ // Insert edge (0,2)-(0,11)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1557,7 +1557,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (25,5)-(30,10) 	
+ // Insert edge (0,2)-(0,12) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1573,7 +1573,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
 	
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,2)-(0,13) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1589,7 +1589,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
  
  
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,2)-(0,14) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1604,7 +1604,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,2)-(0,15) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1620,7 +1620,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
  //////////////////4
-  // Insert edge (0,0)-(0,10)
+  // Insert edge (0,3)-(0,0)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1635,7 +1635,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,6)
+ // Insert edge (0,3)-(0,1)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1650,7 +1650,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0, 10)-(10, 10)
+ // Insert edge (0, 3)-(0, 2)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1665,7 +1665,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,10)-(5,6)
+ // Insert edge (0,3)-(0,4)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1680,7 +1680,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,4)
+ // Insert edge (0,3)-(0,5)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1695,7 +1695,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5, 4)-(10, 4)
+ // Insert edge (0, 3)-(0, 6)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1710,7 +1710,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5,6)-(10,6)
+ // Insert edge (0,3)-(0,7)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1725,7 +1725,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10,10)-(10,6)
+ // Insert edge (0,3)-(0,8)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1740,7 +1740,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10, 6)-(10, 4)
+ // Insert edge (0, 3)-(0, 9)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1756,7 +1756,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
  // Create second connected component
- // Insert edge (20,4)-(20,10)
+ // Insert edge (0,3)-(0,10)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1771,7 +1771,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (20,10)-(30,10)
+ // Insert edge (0,3)-(0,11)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1786,7 +1786,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (25,5)-(30,10) 	
+ // Insert edge (0,3)-(0,12) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1802,7 +1802,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
 	
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,3)-(0,13) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1818,7 +1818,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
  
  
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,3)-(0,14) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1833,7 +1833,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,3)-(0,15) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1849,7 +1849,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  //////////////////////////////5
  
-  // Insert edge (0,0)-(0,10)
+  // Insert edge (0,4)-(0,0)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1864,7 +1864,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,6)
+ // Insert edge (0,4)-(0,1)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1879,7 +1879,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0, 10)-(10, 10)
+ // Insert edge (0, 4)-(0, 2)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1894,7 +1894,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,10)-(5,6)
+ // Insert edge (0,4)-(0,3)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1909,7 +1909,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,4)
+ // Insert edge (0,4)-(0,5)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1924,7 +1924,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5, 4)-(10, 4)
+ // Insert edge (0, 4)-(0, 6)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1939,7 +1939,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5,6)-(10,6)
+ // Insert edge (0,4)-(0,7)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1954,7 +1954,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10,10)-(10,6)
+ // Insert edge (0,4)-(0,8)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1969,7 +1969,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10, 6)-(10, 4)
+ // Insert edge (0, 4)-(0, 9)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -1985,7 +1985,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
  // Create second connected component
- // Insert edge (20,4)-(20,10)
+ // Insert edge (0,4)-(0,10)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2000,7 +2000,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (20,10)-(30,10)
+ // Insert edge (0,4)-(0,11)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2015,7 +2015,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (25,5)-(30,10) 	
+ // Insert edge (0,4)-(0,12) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2031,7 +2031,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
 	
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,4)-(0,13) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2047,7 +2047,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
  
  
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,4)-(0,14) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2062,7 +2062,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,4)-(0,15) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2078,7 +2078,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
  /////////////////////////////6
-  // Insert edge (0,0)-(0,10)
+  // Insert edge (0,5)-(0,0)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2093,7 +2093,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,6)
+ // Insert edge (0,5)-(0,1)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2108,7 +2108,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0, 10)-(10, 10)
+ // Insert edge (0, 5)-(0, 2)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2123,7 +2123,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,10)-(5,6)
+ // Insert edge (0,5)-(0,3)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2138,7 +2138,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,4)
+ // Insert edge (0,5)-(0,4)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2153,7 +2153,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5, 4)-(10, 4)
+ // Insert edge (0, 5)-(0, 6)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2168,7 +2168,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5,6)-(10,6)
+ // Insert edge (0,5)-(0,7)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2183,7 +2183,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10,10)-(10,6)
+ // Insert edge (0,5)-(0,8)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2198,7 +2198,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10, 6)-(10, 4)
+ // Insert edge (0, 5)-(0, 9)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2214,7 +2214,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
  // Create second connected component
- // Insert edge (20,4)-(20,10)
+ // Insert edge (0,5)-(0,10)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2229,7 +2229,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (20,10)-(30,10)
+ // Insert edge (0,5)-(0,11)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2244,7 +2244,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (25,5)-(30,10) 	
+ // Insert edge (0,5)-(0,12) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2260,7 +2260,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
 	
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,5)-(0,13) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2276,7 +2276,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
  
  
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,5)-(0,14) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2291,7 +2291,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,5)-(0,15) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2308,7 +2308,7 @@ int main() //sample main for testing
  
  ///////////////////////////7
  
-  // Insert edge (0,0)-(0,10)
+  // Insert edge (0,6)-(0,0)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2323,7 +2323,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,6)
+ // Insert edge (0,6)-(0,1)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2338,7 +2338,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0, 10)-(10, 10)
+ // Insert edge (0, 6)-(0, 2)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2353,7 +2353,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,10)-(5,6)
+ // Insert edge (0,6)-(0,3)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2368,7 +2368,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,4)
+ // Insert edge (0,6)-(0,4)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2383,7 +2383,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5, 4)-(10, 4)
+ // Insert edge (0, 6)-(0, 5)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2398,7 +2398,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5,6)-(10,6)
+ // Insert edge (0,6)-(0,7)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2413,7 +2413,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10,10)-(10,6)
+ // Insert edge (0,6)-(0,8)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2428,7 +2428,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10, 6)-(10, 4)
+ // Insert edge (0, 6)-(0, 9)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2444,7 +2444,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
  // Create second connected component
- // Insert edge (20,4)-(20,10)
+ // Insert edge (0,6)-(0,10)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2459,7 +2459,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (20,10)-(30,10)
+ // Insert edge (0,6)-(0,11)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2474,7 +2474,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (25,5)-(30,10) 	
+ // Insert edge (0,6)-(0,12) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2490,7 +2490,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
 	
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,6)-(0,13) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2506,7 +2506,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
  
  
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,6)-(0,14) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2521,7 +2521,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,6)-(0,15) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2538,7 +2538,7 @@ int main() //sample main for testing
  
  ////////////////////////////////8
  
-  // Insert edge (0,0)-(0,10)
+  // Insert edge (0,7)-(0,0)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2553,7 +2553,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,6)
+ // Insert edge (0,7)-(0,1)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2568,7 +2568,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0, 10)-(10, 10)
+ // Insert edge (0, 7)-(0, 2)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2583,7 +2583,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,10)-(5,6)
+ // Insert edge (0,7)-(0,3)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2598,7 +2598,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,4)
+ // Insert edge (0,7)-(0,4)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2613,7 +2613,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5, 4)-(10, 4)
+ // Insert edge (0, 7)-(0, 5)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2628,7 +2628,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5,6)-(10,6)
+ // Insert edge (0,7)-(0,6)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2643,7 +2643,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10,10)-(10,6)
+ // Insert edge (0,7)-(0,8)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2658,7 +2658,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10, 6)-(10, 4)
+ // Insert edge (0, 7)-(0, 9)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2674,7 +2674,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
  // Create second connected component
- // Insert edge (20,4)-(20,10)
+ // Insert edge (0,7)-(0,10)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2689,7 +2689,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (20,10)-(30,10)
+ // Insert edge (0,7)-(0,11)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2704,7 +2704,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (25,5)-(30,10) 	
+ // Insert edge (0,7)-(0,12) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2720,7 +2720,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
 	
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,7)-(0,13) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2736,7 +2736,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
  
  
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,7)-(0,14) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2751,7 +2751,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,7)-(0,15) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2768,7 +2768,7 @@ int main() //sample main for testing
  
  /////////////////////////////////////////9
  
-  // Insert edge (0,0)-(0,10)
+  // Insert edge (0,8)-(0,0)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2783,7 +2783,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,6)
+ // Insert edge (0,8)-(0,1)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2798,7 +2798,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0, 10)-(10, 10)
+ // Insert edge (0, 8)-(0, 2)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2813,7 +2813,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,10)-(5,6)
+ // Insert edge (0,8)-(0,3)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2828,7 +2828,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,4)
+ // Insert edge (0,8)-(0,4)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2843,7 +2843,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5, 4)-(10, 4)
+ // Insert edge (0, 8)-(0, 5)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2858,7 +2858,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5,6)-(10,6)
+ // Insert edge (0,8)-(0,6)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2873,7 +2873,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10,10)-(10,6)
+ // Insert edge (0,8)-(0,7)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2888,7 +2888,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10, 6)-(10, 4)
+ // Insert edge (0, 8)-(0, 9)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2904,7 +2904,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
  // Create second connected component
- // Insert edge (20,4)-(20,10)
+ // Insert edge (0,8)-(0,10)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2919,7 +2919,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (20,10)-(30,10)
+ // Insert edge (0,8)-(0,11)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2934,7 +2934,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (25,5)-(30,10) 	
+ // Insert edge (0,8)-(0,12) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2950,7 +2950,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
 	
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,8)-(0,13) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2966,7 +2966,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
  
  
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,8)-(0,14) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2981,7 +2981,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,8)-(0,15) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -2998,7 +2998,7 @@ int main() //sample main for testing
  
  ///////////////////////////////////////////10
  
-  // Insert edge (0,0)-(0,10)
+  // Insert edge (0,9)-(0,0)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3013,7 +3013,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,6)
+ // Insert edge (0,9)-(0,1)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3028,7 +3028,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0, 10)-(10, 10)
+ // Insert edge (0, 9)-(0, 2)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3043,7 +3043,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,10)-(5,6)
+ // Insert edge (0,9)-(0,3)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3058,7 +3058,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,4)
+ // Insert edge (0,9)-(0,4)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3073,7 +3073,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5, 4)-(10, 4)
+ // Insert edge (0, 9)-(0, 5)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3088,7 +3088,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5,6)-(10,6)
+ // Insert edge (0,9)-(0,6)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3103,7 +3103,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10,10)-(10,6)
+ // Insert edge (0,9)-(0,7)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3118,7 +3118,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10, 6)-(10, 4)
+ // Insert edge (0, 9)-(0, 8)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3134,7 +3134,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
  // Create second connected component
- // Insert edge (20,4)-(20,10)
+ // Insert edge (0,9)-(0,10)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3149,7 +3149,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (20,10)-(30,10)
+ // Insert edge (0,9)-(0,11)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3164,7 +3164,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (25,5)-(30,10) 	
+ // Insert edge (0,9)-(0,12) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3180,7 +3180,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
 	
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,9)-(0,13) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3196,7 +3196,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
  
  
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,9)-(0,14) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3211,7 +3211,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,9)-(0,15) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3228,7 +3228,7 @@ int main() //sample main for testing
  
  ////////////////////////////////////////11
  
-  // Insert edge (0,0)-(0,10)
+  // Insert edge (0,10)-(0,0)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3243,7 +3243,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,6)
+ // Insert edge (0,10)-(0,1)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3258,7 +3258,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0, 10)-(10, 10)
+ // Insert edge (0, 10)-(0, 2)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3273,7 +3273,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,10)-(5,6)
+ // Insert edge (0,10)-(0,3)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3288,7 +3288,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,4)
+ // Insert edge (0,10)-(0,4)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3303,7 +3303,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5, 4)-(10, 4)
+ // Insert edge (0, 10)-(0, 5)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3318,7 +3318,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5,6)-(10,6)
+ // Insert edge (0,10)-(0,6)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3333,7 +3333,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10,10)-(10,6)
+ // Insert edge (0,10)-(0,7)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3348,7 +3348,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10, 6)-(10, 4)
+ // Insert edge (0, 10)-(0, 8)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3364,7 +3364,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
  // Create second connected component
- // Insert edge (20,4)-(20,10)
+ // Insert edge (0,10)-(0,9)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3379,7 +3379,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (20,10)-(30,10)
+ // Insert edge (0,10)-(0,11)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3394,7 +3394,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (25,5)-(30,10) 	
+ // Insert edge (0,10)-(0,12) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3410,7 +3410,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
 	
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,10)-(0,13) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3426,7 +3426,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
  
  
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,10)-(0,14) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3441,7 +3441,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,10)-(0,15) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3458,7 +3458,7 @@ int main() //sample main for testing
  
  ////////////////////////////////////////////12
  
-  // Insert edge (0,0)-(0,10)
+  // Insert edge (0,11)-(0,0)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3473,7 +3473,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,6)
+ // Insert edge (0,11)-(0,1)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3488,7 +3488,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0, 10)-(10, 10)
+ // Insert edge (0, 11)-(0, 2)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3503,7 +3503,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,10)-(5,6)
+ // Insert edge (0,11)-(0,3)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3518,7 +3518,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,4)
+ // Insert edge (0,11)-(0,4)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3533,7 +3533,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5, 4)-(10, 4)
+ // Insert edge (0, 11)-(0, 5)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3548,7 +3548,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5,6)-(10,6)
+ // Insert edge (0,11)-(0,6)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3563,7 +3563,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10,10)-(10,6)
+ // Insert edge (0,11)-(0,7)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3578,7 +3578,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10, 6)-(10, 4)
+ // Insert edge (0, 11)-(0, 8)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3594,7 +3594,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
  // Create second connected component
- // Insert edge (20,4)-(20,10)
+ // Insert edge (0,11)-(0,9)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3609,7 +3609,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (20,10)-(30,10)
+ // Insert edge (0,11)-(0,10)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3624,7 +3624,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (25,5)-(30,10) 	
+ // Insert edge (0,11)-(0,12) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3640,7 +3640,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
 	
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,11)-(0,13) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3656,7 +3656,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
  
  
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,11)-(0,14) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3671,7 +3671,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,11)-(0,15) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3688,7 +3688,7 @@ int main() //sample main for testing
  
  //////////////////////////////////////13
  
-  // Insert edge (0,0)-(0,10)
+  // Insert edge (0,12)-(0,0)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3703,7 +3703,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,6)
+ // Insert edge (0,12)-(0,1)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3718,7 +3718,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0, 10)-(10, 10)
+ // Insert edge (0, 12)-(0, 02)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3733,7 +3733,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,10)-(5,6)
+ // Insert edge (0,12)-(0,3)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3748,7 +3748,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,4)
+ // Insert edge (0,12)-(0,4)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3763,7 +3763,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5, 4)-(10, 4)
+ // Insert edge (0, 12)-(0, 5)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3778,7 +3778,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5,6)-(10,6)
+ // Insert edge (0,12)-(0,6)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3793,7 +3793,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10,10)-(10,6)
+ // Insert edge (0,12)-(0,7)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3808,7 +3808,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10, 6)-(10, 4)
+ // Insert edge (0, 12)-(0, 8)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3824,7 +3824,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
  // Create second connected component
- // Insert edge (20,4)-(20,10)
+ // Insert edge (0,12)-(0,9)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3839,7 +3839,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (20,10)-(30,10)
+ // Insert edge (0,12)-(0,9)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3854,7 +3854,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (25,5)-(30,10) 	
+ // Insert edge (0,12)-(0,10) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3870,7 +3870,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
 	
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,12)-(0,13) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3886,7 +3886,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
  
  
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,12)-(0,14) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3901,7 +3901,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,12)-(0,15) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3918,7 +3918,7 @@ int main() //sample main for testing
  
  //////////////////////////////////////14
  
-  // Insert edge (0,0)-(0,10)
+  // Insert edge (0,13)-(0,0)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3933,7 +3933,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,6)
+ // Insert edge (0,13)-(0,1)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3948,7 +3948,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0, 10)-(10, 10)
+ // Insert edge (0,13 )-(0, 2)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3963,7 +3963,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,10)-(5,6)
+ // Insert edge (0,13)-(0,3)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3978,7 +3978,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,4)
+ // Insert edge (0,13)-(0,4)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -3993,7 +3993,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5, 4)-(10, 4)
+ // Insert edge (0, 13)-(0, 5)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4008,7 +4008,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5,6)-(10,6)
+ // Insert edge (0,13)-(0,6)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4023,7 +4023,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10,10)-(10,6)
+ // Insert edge (0,13)-(0,7)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4038,7 +4038,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10, 6)-(10, 4)
+ // Insert edge (0, 13)-(0, 8)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4054,7 +4054,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
  // Create second connected component
- // Insert edge (20,4)-(20,10)
+ // Insert edge (0,13)-(0,9)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4069,7 +4069,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (20,10)-(30,10)
+ // Insert edge (0,13)-(0,10)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4084,7 +4084,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (25,5)-(30,10) 	
+ // Insert edge (0,13)-(0,11) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4100,7 +4100,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
 	
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,13)-(0,12) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4116,7 +4116,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
  
  
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,13)-(0,14) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4131,7 +4131,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,13)-(0,15) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4148,7 +4148,7 @@ int main() //sample main for testing
  
  //////////////////////////////////////15
  
-  // Insert edge (0,0)-(0,10)
+  // Insert edge (0,14)-(0,0)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4163,7 +4163,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,6)
+ // Insert edge (0,14)-(0,1)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4178,7 +4178,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0, 10)-(10, 10)
+ // Insert edge (0, 14)-(0, 2)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4193,7 +4193,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,10)-(5,6)
+ // Insert edge (0,14)-(0,3)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4208,7 +4208,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,4)
+ // Insert edge (0,14)-(0,4)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4223,7 +4223,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5, 4)-(10, 4)
+ // Insert edge (0, 14)-(0, 5)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4238,7 +4238,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5,6)-(10,6)
+ // Insert edge (0,14)-(0,6)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4253,7 +4253,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10,10)-(10,6)
+ // Insert edge (0,14)-(0,7)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4268,7 +4268,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10, 6)-(10, 4)
+ // Insert edge (0, 14)-(0, 8)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4284,7 +4284,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
  // Create second connected component
- // Insert edge (20,4)-(20,10)
+ // Insert edge (0,14)-(0,9)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4299,7 +4299,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (20,10)-(30,10)
+ // Insert edge (0,14)-(0,10)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4314,7 +4314,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (25,5)-(30,10) 	
+ // Insert edge (0,14)-(0,11) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4330,7 +4330,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
 	
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,14)-(0,12) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4346,7 +4346,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
  
  
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,14)-(0,13) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4361,7 +4361,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,14)-(0,15) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4378,7 +4378,7 @@ int main() //sample main for testing
  
  //////////////////////////////////////16
  
-  // Insert edge (0,0)-(0,10)
+  // Insert edge (0,15)-(0,0)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4393,7 +4393,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,6)
+ // Insert edge (0,15)-(0,1)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4408,7 +4408,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0, 10)-(10, 10)
+ // Insert edge (0, 15)-(0, 2)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4423,7 +4423,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,10)-(5,6)
+ // Insert edge (0,15)-(0,3)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4438,7 +4438,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (0,0)-(5,4)
+ // Insert edge (0,15)-(0,4)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4453,7 +4453,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5, 4)-(10, 4)
+ // Insert edge (0, 15)-(0, 5)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4468,7 +4468,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (5,6)-(10,6)
+ // Insert edge (0,15)-(0,6)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4483,7 +4483,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10,10)-(10,6)
+ // Insert edge (0,15)-(0,7)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4498,7 +4498,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (10, 6)-(10, 4)
+ // Insert edge (0, 15)-(0, 8)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4514,7 +4514,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
  // Create second connected component
- // Insert edge (20,4)-(20,10)
+ // Insert edge (0,15)-(0,9)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4529,7 +4529,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (20,10)-(30,10)
+ // Insert edge (0,15)-(0,10)
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4544,7 +4544,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n");
  
- // Insert edge (25,5)-(30,10) 	
+ // Insert edge (0,15)-(0,11) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4560,7 +4560,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
 	
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,15)-(0,12) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4576,7 +4576,7 @@ int main() //sample main for testing
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
  
  
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,15)-(0,13) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
@@ -4591,7 +4591,7 @@ int main() //sample main for testing
  e_ptr->p2=v2;
  if (InsertEdge(g1, e_ptr)==0) printf("edge exists\n"); 
 
-  // Insert edge (25,5)-(30,10) 	
+  // Insert edge (0,15)-(0,14) 	
  e_ptr = (Edge*) malloc(sizeof(Edge));
  assert(e_ptr != NULL);
  v1=(Vertex*) malloc(sizeof(Vertex));
